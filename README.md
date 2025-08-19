@@ -1,9 +1,7 @@
 # Set Up a RAG Chatbot in Bedrock
 
-**Project Link:** [View Project](http://learn.nextwork.org/projects/ai-rag-bedrock)
-
 **Author:** Nana Penod  
-**Email:** emmanueldonkoh11@gmail.com
+**Email:** emmanueldonkoh335@gmail.com
 
 
 ## Set Up a RAG Chatbot in Bedrock

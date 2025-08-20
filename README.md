@@ -6,7 +6,42 @@
 
 ## Set Up a RAG Chatbot in Bedrock
 
-![Image](http://learn.nextwork.org/refreshed_white_beautiful_river_turtle/uploads/ai-rag-bedrock_d5e8f1g2)
+
+## Screenshots
+**KB created & synced**  
+![KB configured and synced](./kb-config-and-sync.png)
+
+**“Who is Emmanuel Donkoh?” — grounded answer**  
+![KB test - who am I](./kb-who-is.png)
+
+**3-sentence recruiter summary with citations**  
+![3-sentence summary with citations](./kb-3-sentence-summary.png)
+
+**Concise summary with inline citations**  
+![Summary with citations](./kb-summary-with-citations.png)
+
+**10-word elevator pitch from resume**  
+![10-word elevator pitch](./kb-elevator-pitch.png)
+
+
+
+## Why Bedrock?
+- Fully managed retrieval + generation with native **S3**, **OpenSearch Serverless**, and **Knowledge Bases**.  
+- Grounded outputs: answers cite the specific resume chunks used.  
+- Scales without managing vector DB infrastructure.
+
+## Reproduce
+1. Upload documents to **S3** (same region as Bedrock).  
+2. **Bedrock → Knowledge Bases**: create KB → S3 data source → OpenSearch Serverless vector store → **Titan Text Embeddings v2**.  
+3. **Sync** to ingest, chunk, and embed.  
+4. Test with **Llama 3.3 70B Instruct** in *Retrieval & generation* mode.  
+5. Ask recruiter-style prompts and verify citations.
+
+## Notes
+- If a question is unanswered, add/adjust documents or chunking settings and re-sync.  
+- Toggle **Generate responses** off to view only retrieved sources.
+
+© 2025 Nana Penod
 
 
 ## Introducing Today's Project!

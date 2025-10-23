@@ -37,12 +37,6 @@
 4. Test with **Llama 3.3 70B Instruct** in *Retrieval & generation* mode.  
 5. Ask recruiter-style prompts and verify citations.
 
-## Notes
-- If a question is unanswered, add/adjust documents or chunking settings and re-sync.  
-- Toggle **Generate responses** off to view only retrieved sources.
-
-© 2025 Nana Penod
-
 
 ## Introducing Today's Project!
 

@@ -1,9 +1,3 @@
-# Set Up a RAG Chatbot in Bedrock
-
-**Author:** Nana Penod  
-**Email:** emmanueldonkoh335@gmail.com
-
-
 ## Set Up a RAG Chatbot in Bedrock
 
 
